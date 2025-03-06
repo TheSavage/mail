@@ -27,7 +27,7 @@ function compose_email() {
       body: JSON.stringify({
           recipients: '',
           subject: 'Meeting timeX',
-          body: 'How about we meet tomorrow at 3pm?'
+          body: 'How about we meet tomorrow at 7pm?'
       })
     })
     .then(response => response.json())
